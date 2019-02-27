@@ -1,0 +1,2232 @@
+0:100  0:100  MemLog inited, TSC freq: 2709556840
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 3.2.2019,  19:10:14 (GMT)
+0:100  0:000  Starting Clover revision: 4844 on INSYDE Corp. EFI
+0:100  0:000  Build with: [Args: -nb -mc --no-usb -D NO_GRUB_DRIVERS_EMBEDDED | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 5 | OS: 10.13.6 | XCODE: 10.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,B684BC4B-5684-45EA-A3AA-4C551CBA7DD8,0x28,0x64000) @7AC1A598
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:111  0:010  === [ Get Smbios ] ========================================
+0:111  0:000  Type 16 Index = 0
+0:111  0:000  Total Memory Slots Count = 2
+0:111  0:000  Type 17 Index = 0
+0:111  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:111  0:000  SmbiosTable.Type17->Size = 4096MB
+0:111  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:111  0:000  SmbiosTable.Type17->Vendor = 04CB
+0:111  0:000  SmbiosTable.Type17->SerialNumber = 97850100
+0:111  0:000  SmbiosTable.Type17->PartNumber = AM1P24HC4U1-B9RS    
+0:111  0:000  Type 17 Index = 1
+0:111  0:000  Ignoring insane frequency value 0MHz
+0:111  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:111  0:000  SmbiosTable.Type17->Size = 0MB
+0:111  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:111  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:111  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:111  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:111  0:000  Boot status=0
+0:111  0:000  Running on: 'Aspire E5-475G' with board 'AntMan_SK '
+0:111  0:000  === [ GetCPUProperties ] ==================================
+0:111  0:000  CPU Vendor = 756E6547 Model=806E9
+0:111  0:000   The CPU supported SSE4.1
+0:111  0:000  BrandString = Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+0:111  0:000   The CPU supported turbo
+0:111  0:000  MSR 0x35               20004
+0:111  0:000   TSC/CCC Information Leaf:
+0:111  0:000    numerator     : 226
+0:111  0:000    denominator   : 2
+0:111  0:000   Calibrated ARTFrequency: 23978379
+0:111  0:000  MSR 0xE2 before patch 1E008006
+0:111  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:111  0:000  MSR 0xCE              0004043D_F1011B00
+0:111  0:000  corrected FLEX_RATIO = 0
+0:111  0:000  MSR 0x1B0             00000000
+0:111  0:000  FSBFrequency = 115 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:111  0:000  MaxDiv/MinDiv: 27.0/4
+0:111  0:000  Turbo: 31/31/31/31
+0:111  0:000  Features: 0xBFEBFBFF
+0:111  0:000  Threads: 4
+0:111  0:000  Cores: 2
+0:111  0:000  FSB: 100 MHz
+0:111  0:000  CPU: 3100 MHz
+0:111  0:000  TSC: 3100 MHz
+0:111  0:000  PIS: 100 MHz
+0:111  0:000  ExternalClock: 25 MHz
+0:111  0:000  === [ GetDevices ] ========================================
+0:111  0:000  PCI (00|00:00.00) : 8086 5904 class=060000
+0:111  0:000  PCI (00|00:02.00) : 8086 5916 class=030000
+0:111  0:000   - GFX: Model=Intel HD Graphics 620 (Intel)
+0:111  0:000  PCI (00|00:14.00) : 8086 9D2F class=0C0330
+0:111  0:000  PCI (00|00:14.02) : 8086 9D31 class=118000
+0:111  0:000  PCI (00|00:15.00) : 8086 9D60 class=118000
+0:111  0:000  PCI (00|00:16.00) : 8086 9D3A class=078000
+0:111  0:000  PCI (00|00:17.00) : 8086 9D03 class=010601
+0:111  0:000  PCI (00|00:1C.00) : 8086 9D10 class=060400
+0:111  0:000  PCI (00|01:00.00) : 10DE 134D class=030200
+0:111  0:000  PCI (00|00:1D.00) : 8086 9D18 class=060400
+0:111  0:000  PCI (00|00:1D.02) : 8086 9D1A class=060400
+0:111  0:000  PCI (00|03:00.00) : 168C 0042 class=028000
+0:111  0:000   - WIFI: Vendor=Atheros
+0:111  0:000  PCI (00|00:1D.03) : 8086 9D1B class=060400
+0:111  0:000  PCI (00|04:00.00) : 10EC 8168 class=020000
+0:111  0:000   - LAN: 0 Vendor=Realtek
+0:111  0:000  PCI (00|00:1F.00) : 8086 9D4E class=060100
+0:111  0:000  PCI (00|00:1F.02) : 8086 9D21 class=058000
+0:111  0:000  PCI (00|00:1F.03) : 8086 9D71 class=040300
+0:111  0:000  PCI (00|00:1F.04) : 8086 9D23 class=0C0500
+0:111  0:000  === [ GetDefaultSettings ] ================================
+0:111  0:000  Clover load options size = 0 bytes
+0:148  0:037  EFI\CLOVER\config.plist loaded: Success
+0:153  0:004  === [ GetListOfThemes ] ===================================
+0:162  0:009  - [00]: BGM
+0:174  0:011  - [01]: Lightness256
+0:200  0:026  === [ Found config plists ] ===============================
+0:206  0:005  - config_old_mod.plist
+0:216  0:009  - config_old.plist
+0:216  0:000  - config_hs.plist
+0:216  0:000  - config.plist
+0:216  0:000  - config_mirone.plist
+0:229  0:013  - config_no_mirone.plist
+0:229  0:000  - config_mek_ssd_audiofix.plist
+0:229  0:000  === [ GetEarlyUserSettings ] ==============================
+0:229  0:000  timeout set to 5
+0:229  0:000  Custom boot logo not decoded from data!
+0:229  0:000  Custom boot CUSTOM_BOOT_USER (0x0)
+0:229  0:000  KextsToPatch: 3 requested
+0:229  0:000   - [00]: AppleUSBXHCIPCI (Unlock Port Limit USB XHC High Sierra) :: BinPatch :: data len: 4
+0:229  0:000   - [01]: IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:229  0:000   - [02]: com.apple.driver.AppleBacklight (change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)) :: BinPatch :: data len: 9
+0:229  0:000  KernelToPatch: 1 requested
+0:229  0:000   - [00]: MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha :: data len: 8
+0:229  0:000  Default theme: BGM256
+0:229  0:000  Hiding entries with string Preboot
+0:229  0:000   Custom EDID is ok
+0:229  0:000  === [ LoadDrivers ] =======================================
+0:235  0:006  Loading HFSPlus.efi  status=Success
+0:237  0:001   - driver needs connecting
+0:237  0:000  Loading PartitionDxe-64.efi  status=Success
+0:239  0:001   - driver needs connecting
+0:239  0:000  Loading DataHubDxe-64.efi  status=Success
+0:241  0:001  Loading FSInject-64.efi  status=Success
+0:243  0:001  Loading Fat-64.efi  status=Success
+0:245  0:001   - driver needs connecting
+0:245  0:000  Loading EnglishDxe-64.efi  status=Success
+0:247  0:002  Loading ApfsDriverLoader-64.efi  status=Success
+0:249  0:001   - driver needs connecting
+0:249  0:000  Loading AptioMemoryFix-64.efi  status=Success
+0:251  0:002  Loading NTFS.efi  status=Success
+0:254  0:002   - driver needs connecting
+0:254  0:000  Loading NvmExpressDxe-64.efi  status=Success
+0:256  0:001   - driver needs connecting
+0:256  0:000  Loading AudioDxe.efi  status=Success
+0:258  0:002   - driver needs connecting
+0:258  0:000  Loading BootChimeDxe.efi  status=Success
+0:303  0:044  Loading APFS.efi  status=Success
+0:321  0:018   - driver needs connecting
+0:321  0:000  Loading AppleImageCodec-64.efi  status=Success
+0:342  0:020  Loading AppleKeyAggregator-64.efi  status=Success
+0:344  0:002  Loading AppleUITheme-64.efi  status=Success
+0:346  0:001  Loading AptioInputFix.efi  status=Success
+0:348  0:001  Loading EmuVariableUefi-64.efi  status=Success
+0:350  0:001  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:350  0:000  Loading ext2_x64.efi  status=Success
+0:364  0:014   - driver needs connecting
+0:364  0:000  Loading FirmwareVolume-64.efi  status=Success
+0:366  0:001  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:368  0:002  Loading SMCHelper-64.efi  status=Success
+0:370  0:001  Loading UsbKbDxe-64.efi  status=Success
+0:373  0:002   - driver needs connecting
+0:373  0:000  Loading UsbMouseDxe-64.efi  status=Success
+0:375  0:002   - driver needs connecting
+0:375  0:000  11 drivers needs connecting ...
+0:375  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:375  0:000  Partition driver loaded: 
+0:375  0:000  HFS+ driver loaded
+0:375  0:000  APFS driver loaded
+0:375  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+4:429  4:054  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+4:454  0:025  === [ InitScreen ] ========================================
+4:454  0:000  SetScreenResolution: 1366x768 - already set
+4:454  0:000  Console modes reported: 6, available modes:
+4:454  0:000   - [01]: 80x25
+4:454  0:000   - [03]: 80x25
+4:454  0:000   - [04]: 170x40 (current mode)
+4:454  0:000   - [05]: 100x31
+4:454  0:000   - [06]: 128x40
+4:454  0:000  SetScreenResolution: 1366x768 - already set
+4:454  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,B684BC4B-5684-45EA-A3AA-4C551CBA7DD8,0x28,0x64000)
+4:454  0:000  === [ GetMacAddress ] =====================================
+4:454  0:000   get legacy LAN MAC, 1 card found
+4:454  0:000  Legacy MAC address of LAN #0= D8:C4:97:2F:AD:86:
+4:454  0:000  === [ ScanSPD ] ===========================================
+4:455  0:000  Scanning SMBus [8086:9D23], mmio: 0xB432E004, ioport: 0x5040, hostc: 0x11
+4:473  0:018  Slot: 0 Type 26 4096MB 2400MHz Vendor=A-DATA Technology PartNo=AM1P24HC4U1-B9RS SerialNo=0907080500010000
+4:492  0:018  Slot: 2 Type 26 4096MB 2400MHz Vendor=Samsung PartNo=M471A5244BB0-CRC SerialNo=02000904010F0C03
+4:493  0:000  === [ GetAcpiTablesList ] =================================
+4:497  0:004  Get Acpi Tables List from RSDT:
+4:497  0:000   - [00]: FACP  ACRPRDCT len=268
+4:497  0:000   - [01]: UEFI  ACRPRDCT len=66
+4:497  0:000   - [02]: MSDM  ACRPRDCT len=85
+4:497  0:000   - [03]: SSDT  ACRPRDCT len=70
+4:497  0:000   - [04]: SSDT  ACRPRDCT len=12660
+4:497  0:000   - [05]: ASF!  ACRPRDCT len=165
+4:497  0:000   - [06]: BOOT  ACRPRDCT len=40
+4:497  0:000   - [07]: HPET  ACRPRDCT len=56
+4:497  0:000   - [08]: MCFG  ACRPRDCT len=60
+4:497  0:000   - [09]: LPIT  ACRPRDCT len=148
+4:497  0:000   - [10]: SSDT  ACRPRDCT len=671
+4:497  0:000   - [11]: SSDT  ACRPRDCT len=1310
+4:497  0:000   - [12]: DBG2  ACRPRDCT len=84
+4:497  0:000   - [13]: SSDT  ACRPRDCT len=3806
+4:497  0:000   - [14]: DMAR  ACRPRDCT len=204
+4:497  0:000   - [15]: FPDT  ACRPRDCT len=68
+4:497  0:000   - [16]: UEFI  ACRPRDCT len=566
+4:497  0:000   - [17]: SSDT  ACRPRDCT len=1224
+4:497  0:000   - [18]: SSDT  ACRPRDCT len=1891
+4:497  0:000   - [19]: DBGP  ACRPRDCT len=52
+4:497  0:000   - [20]: SSDT  ACRPRDCT len=444
+4:497  0:000   - [21]: SSDT  ACRPRDCT len=838
+4:497  0:000   - [22]: SSDT  ACRPRDCT len=21789
+4:497  0:000   - [23]: ASPT  ACRPRDCT len=52
+4:497  0:000   - [24]: WSMT  ACRPRDCT len=40
+4:497  0:000   - [25]: SSDT  ACRPRDCT len=13208
+4:497  0:000   - [26]: TPM2  ACRPRDCT len=52
+4:497  0:000   - [27]: DBGP  ACRPRDCT len=52
+4:497  0:000   - [28]: APIC  ACRPRDCT len=188
+4:497  0:000   - [29]: BGRT  ACRPRDCT len=56
+4:497  0:000  Calibrated TSC Frequency = 2709556840 = 2709MHz
+4:497  0:000  === [ GetUserSettings ] ===================================
+4:497  0:000   Custom EDID is ok
+4:497  0:000  Can't install EdidOverride on ImageHandle
+4:497  0:000  USB FixOwnership: yes
+4:497  0:000  Dropping 3 tables:
+4:497  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+4:497  0:000           - set table: 52414D44,                0 to drop: yes
+4:497  0:000   - [01]: Drop table  signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+4:497  0:000           - set table: 54445353,       6D50757043 to drop: no
+4:497  0:000   - [02]: Drop table  signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+4:497  0:000           - set table: 54445353,   74734930757043 to drop: no
+4:498  0:000   - final DSDT Fix mask=17C61051
+4:498  0:000  PatchesDSDT: 6 requested
+4:498  0:000   - [00]: (Rename oem _DSM to ZDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:498  0:000   - [01]: (Rename HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:498  0:000   - [02]: (change EHC1 to EH01) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:498  0:000   - [03]: (change EHC2 to EH02) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:498  0:000   - [04]: (change HDAS to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:498  0:000   - [05]: (change AZAL to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+4:498  0:000  PluginType: 1
+4:498  0:000  Using ProductName from config: MacBookPro14,1
+4:498  0:000  Using latest BiosVersion from clover
+4:498  0:000  BiosVersion: MBP141.88Z.F000.B00.1809171524
+4:498  0:000  BiosReleaseDate: 09/17/2018
+4:498  0:000  Using EfiVersion from clover: 184.0.0.0.0
+4:498  0:000  Using FirmwareFeatures from config: 0xFC0FE137
+4:498  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+4:498  0:000  Board-ID set from config as Mac-B4831CEBD52A0C4C
+4:498  0:000  BoardType: 0xA
+4:498  0:000  ChassisType: 0x9
+4:498  0:000  Converted CustomUUID 59DE24D8-B18E-483C-A885-8B8B535E4663
+4:539  0:041  === [ Found DSDT tables ] =================================
+6:235  1:695  === [ ScanVolumes ] =======================================
+6:235  0:000  Found 19 volumes with blockIO
+6:235  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)
+6:245  0:010          Result of bootcode detection: bootable Linux (grub,linux)
+6:245  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)
+6:247  0:001  - [02]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,B684BC4B-5684-45EA-A3AA-4C551CBA7DD8,0x28,0x64000)
+6:247  0:000          Result of bootcode detection: bootable unknown (legacy)
+6:258  0:010          This is SelfVolume !!
+6:258  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(2,GPT,ABC3C896-EBF7-414A-9191-269CBC65E6A6,0x64800,0x8000)
+6:263  0:005  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,38892D9F-B3A5-4225-956E-D32087342AFA,0x100800,0x22FC1800)
+6:274  0:010  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(4,GPT,AD61D0C1-8D0E-4EC3-A65F-B398118D2858,0x23102000,0x7BD800)
+6:290  0:016  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(5,GPT,0560D59B-8512-48A9-B11B-48D4F1F3EEB1,0x238BF800,0x2D75E800)
+6:302  0:012  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,061CA8F7-E13E-4D36-B761-01ABF06BDD2E,0x5107D000,0x22ECB800)
+6:326  0:023          Result of bootcode detection: bootable unknown (legacy)
+6:326  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(7,GPT,02EE09B8-DC2C-4A8B-9969-623F45DFBE9F,0x73F48800,0x7BE000)
+6:342  0:015  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(1,GPT,8AD98EDC-DD9C-40B7-AF14-3680C18C3A3A,0x28,0x64000)
+6:343  0:001          Result of bootcode detection: bootable unknown (legacy)
+6:343  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(2,GPT,20E1EFF5-2CDC-482A-897A-44FC48266AB9,0x64028,0xDF30B60)
+6:343  0:000          Result of bootcode detection: bootable unknown (legacy)
+6:343  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,061CA8F7-E13E-4D36-B761-01ABF06BDD2E,0x5107D000,0x22ECB800)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6F0B14D22C087F4FB5478BB1EAC81A44)
+6:343  0:000          hiding this volume
+6:343  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,061CA8F7-E13E-4D36-B761-01ABF06BDD2E,0x5107D000,0x22ECB800)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,DB97F332D7E7D04C859DBD8C28E75CFC)
+6:344  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,061CA8F7-E13E-4D36-B761-01ABF06BDD2E,0x5107D000,0x22ECB800)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4AFEEE055222C44AA78D28ACECD19374)
+6:344  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,061CA8F7-E13E-4D36-B761-01ABF06BDD2E,0x5107D000,0x22ECB800)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,9644A99895FB224DAB1EBAE8F1490A5D)
+6:344  0:000  - [15]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(2,GPT,20E1EFF5-2CDC-482A-897A-44FC48266AB9,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8C1C85964F835246A13D218E216D3915)
+6:344  0:000          hiding this volume
+6:344  0:000  - [16]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(2,GPT,20E1EFF5-2CDC-482A-897A-44FC48266AB9,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,C2E499BB93C3AB3E8FCE50A642051AA5)
+6:344  0:000  - [17]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(2,GPT,20E1EFF5-2CDC-482A-897A-44FC48266AB9,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,02226408E6CE82429654FF860FC6902B)
+6:344  0:000  - [18]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(2,GPT,20E1EFF5-2CDC-482A-897A-44FC48266AB9,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5FECC6AF627DDD47BC15B3E1F8C422A9)
+6:777  0:432  PutNvramPlistToRtVars: nvram.plist not found
+6:777  0:000  === [ InitTheme ] =========================================
+6:777  0:000  use daylight theme
+6:777  0:000  GlobalConfig: BGM256 not found, get embedded theme
+6:777  0:000   using embedded theme
+6:777  0:000  Using embedded font: Success
+6:777  0:000  theme inited
+6:777  0:000  Chosen embedded theme
+6:777  0:000  found boot-args in NVRAM:, size=1
+6:777  0:000  after NVRAM boot-args=nv_disable=1 darkwake=0 acpi_layer=0x08 debug=0x12a LogEveryBoot=Yes IGPEnabler=YES -disablegfxfirmware acpi_level=0x02
+6:777  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+6:777  0:000  found AppleSMC protocol
+6:778  0:000  Registered 0 SMC keys
+6:778  0:000  === [ AddCustomEntries ] ==================================
+6:778  0:000  Custom entry 0 Title:"Windows Sapuluh HEHE" Path:"\EFI\MS2\Boot\bootmgfw.efi" Options:"-s -h" Type:7 Flags:0x0 matching Volume:"B684BC4B-5684-45EA-A3AA-4C551CBA7DD8"
+6:778  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(1,GPT,B684BC4B-5684-45EA-A3AA-4C551CBA7DD8,0x28,0x64000)) ... skipped because path does not exist
+6:778  0:000      Checking volume "Mek" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(3,GPT,38892D9F-B3A5-4225-956E-D32087342AFA,0x100800,0x22FC1800)) ... skipped
+6:778  0:000      Checking volume "" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(5,GPT,0560D59B-8512-48A9-B11B-48D4F1F3EEB1,0x238BF800,0x2D75E800)) ... skipped
+6:778  0:000      Checking volume "EFI" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(1,GPT,8AD98EDC-DD9C-40B7-AF14-3680C18C3A3A,0x28,0x64000)) ... skipped
+6:778  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,061CA8F7-E13E-4D36-B761-01ABF06BDD2E,0x5107D000,0x22ECB800)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,6F0B14D22C087F4FB5478BB1EAC81A44)) ... skipped because volume is hidden
+6:778  0:000      Checking volume "Mojave" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,061CA8F7-E13E-4D36-B761-01ABF06BDD2E,0x5107D000,0x22ECB800)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,DB97F332D7E7D04C859DBD8C28E75CFC)) ... skipped
+6:778  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,061CA8F7-E13E-4D36-B761-01ABF06BDD2E,0x5107D000,0x22ECB800)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,4AFEEE055222C44AA78D28ACECD19374)) ... skipped
+6:778  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0x0,0x0)\HD(6,GPT,061CA8F7-E13E-4D36-B761-01ABF06BDD2E,0x5107D000,0x22ECB800)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,9644A99895FB224DAB1EBAE8F1490A5D)) ... skipped
+6:778  0:000      Checking volume "Preboot" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(2,GPT,20E1EFF5-2CDC-482A-897A-44FC48266AB9,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8C1C85964F835246A13D218E216D3915)) ... skipped because volume is hidden
+6:778  0:000      Checking volume "Mek_SSD" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(2,GPT,20E1EFF5-2CDC-482A-897A-44FC48266AB9,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,C2E499BB93C3AB3E8FCE50A642051AA5)) ... skipped
+6:778  0:000      Checking volume "Recovery" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(2,GPT,20E1EFF5-2CDC-482A-897A-44FC48266AB9,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,02226408E6CE82429654FF860FC6902B)) ... skipped
+6:778  0:000      Checking volume "VM" (PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x1,0x0,0x0)\HD(2,GPT,20E1EFF5-2CDC-482A-897A-44FC48266AB9,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5FECC6AF627DDD47BC15B3E1F8C422A9)) ... skipped
+6:778  0:000  === [ ScanLoader ] ========================================
+6:778  0:000  - [02]: 'EFI'
+6:811  0:033          AddLoaderEntry for Volume Name=EFI
+6:811  0:000          skipped because entry is hidden
+6:811  0:000  - [04]: 'Mek'
+6:813  0:001  - [06]: ''
+7:877  1:064  Reallocating buffer from 256 to 600
+7:918  0:041  Reallocating buffer from 256 to 600
+7:946  0:027  Reallocating buffer from 256 to 600
+7:962  0:016  Reallocating buffer from 256 to 600
+7:979  0:016  Reallocating buffer from 256 to 600
+7:996  0:017  Reallocating buffer from 256 to 600
+8:014  0:017  Reallocating buffer from 256 to 600
+8:031  0:017  Reallocating buffer from 256 to 600
+8:106  0:074          AddLoaderEntry for Volume Name=
+8:348  0:242  Reallocating buffer from 256 to 600
+8:435  0:086  Reallocating buffer from 256 to 600
+8:453  0:018  Reallocating buffer from 256 to 600
+8:472  0:018  Reallocating buffer from 256 to 600
+8:490  0:018  Reallocating buffer from 256 to 600
+8:509  0:018  Reallocating buffer from 256 to 600
+8:587  0:078          AddLoaderEntry for Volume Name=
+8:848  0:260  Reallocating buffer from 256 to 600
+8:937  0:088  Reallocating buffer from 256 to 600
+8:956  0:019  Reallocating buffer from 256 to 600
+8:976  0:019  Reallocating buffer from 256 to 600
+8:996  0:019  Reallocating buffer from 256 to 600
+9:078  0:081          AddLoaderEntry for Volume Name=
+9:349  0:270  Reallocating buffer from 256 to 600
+9:416  0:067  Reallocating buffer from 256 to 600
+9:437  0:020  Reallocating buffer from 256 to 600
+9:457  0:020  - [09]: 'EFI'
+9:457  0:000  - [11]: 'Preboot', hidden
+9:457  0:000  - [12]: 'Mojave'
+9:718  0:260          AddLoaderEntry for Volume Name=Mojave
+9:777  0:059      hibernated: set as never
+9:813  0:036  - [13]: 'Recovery'
+9:814  0:000          AddLoaderEntry for Volume Name=Recovery
+9:857  0:043  - [14]: 'VM'
+9:858  0:000  - [15]: 'Preboot', hidden
+9:858  0:000  - [16]: 'Mek_SSD'
+9:867  0:009          AddLoaderEntry for Volume Name=Mek_SSD
+9:868  0:001      hibernated: set as never
+9:880  0:011  - [17]: 'Recovery'
+9:880  0:000          AddLoaderEntry for Volume Name=Recovery
+9:902  0:021  - [18]: 'VM'
+9:902  0:000  === [ AddCustomTool ] =====================================
+9:903  0:000  EmuVariable InstallEmulation: EFI_ALREADY_STARTED
+9:903  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+9:903  0:000  Default boot entry not found
+9:903  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+9:903  0:000  DefaultIndex=-1 and MainMenu.EntryCount=11
+9:903  0:000  not run anime
+9:935  0:031  GUI ready
+10:701  0:766  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+10:701  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+10:701  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+10:812  0:110    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+10:812  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276 -> XSDT.aml
+10:816  0:004    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156 -> RSDT.aml
+10:820  0:004    Tables in Xsdt: 30
+10:820  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268 -> FACP.aml
+10:824  0:004        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+10:824  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336 -> DSDT.aml
+10:866  0:042        8AE79000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+10:870  0:004    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66 -> UEFI.aml
+10:875  0:004    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85 -> MSDM.aml
+10:879  0:004    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70 -> SSDT-0-ACRPRDCT.aml
+10:885  0:005    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660 -> SSDT-1-ACRPRDCT.aml
+10:957  0:072    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165 -> ASF!.aml
+10:963  0:005    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40 -> BOOT.aml
+10:966  0:003    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56 -> HPET.aml
+10:971  0:004    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60 -> MCFG.aml
+10:975  0:004    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148 -> LPIT.aml
+10:979  0:004    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671 -> SSDT-2-ACRPRDCT.aml
+10:984  0:004    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310 -> SSDT-3-ACRPRDCT.aml
+10:988  0:004    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84 -> DBG2.aml
+10:992  0:004    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806 -> SSDT-4-ACRPRDCT.aml (Found hidden SSDT 7 pcs)
+10:997  0:005        * 8A687018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1716  53 53 44 54 B4 06 00 00 02 F4 50 6D 52 65 66 00 Internal length = 1716 -> SSDT-x4_0-Cpu0Ist.aml
+11:003  0:006        * 8A686018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x4_1-ApIst.aml
+11:007  0:003        * 8A686898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x4_2-Cpu0Cst.aml
+11:012  0:004        * 8A686DD8: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 33 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x4_3-ApCst.aml
+11:016  0:004        * 8A687DD8: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 A8 50 6D 52 65 66 00 Internal length = 277 -> SSDT-x4_4-Cpu0Hwp.aml
+11:020  0:003        * 8A687A98: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 EB 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x4_5-ApHwp.aml
+11:025  0:005        * 8A687898: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 36 50 6D 52 65 66 00 Internal length = 420 -> SSDT-x4_6-HwpLvt.aml
+11:030  0:004  
+11:030  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204 -> DMAR.aml
+11:034  0:003    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68 -> FPDT.aml
+11:038  0:003    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566 -> UEFI.aml
+11:046  0:007    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224 -> SSDT-5-ACRPRDCT.aml
+11:049  0:003    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891 -> SSDT-6-ACRPRDCT.aml
+11:053  0:004    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52 -> DBGP.aml
+11:057  0:003    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444 -> SSDT-7-ACRPRDCT.aml
+11:063  0:005    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838 -> SSDT-8-ACRPRDCT.aml
+11:068  0:004    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789 -> SSDT-9-ACRPRDCT.aml
+11:073  0:005    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52 -> ASPT.aml
+11:077  0:003    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40 -> WSMT.aml
+11:080  0:003    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208 -> SSDT-10-ACRPRDCT.aml
+11:085  0:004    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52 -> TPM2.aml
+11:089  0:004    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52 -> DBGP.aml
+11:096  0:006    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188 -> APIC.aml
+11:100  0:003    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56 -> BGRT.aml
+11:103  0:003    Tables in Rsdt: 30
+11:103  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+11:103  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+11:103  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+11:105  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+11:105  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+11:105  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+11:105  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+11:105  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+11:105  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+11:105  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+11:105  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+11:105  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+11:105  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+11:105  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+11:105  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+11:105  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+11:105  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+11:105  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+11:105  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+11:105  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+11:105  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+11:105  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+11:105  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+11:105  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+11:105  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+11:105  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+11:105  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+11:105  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+11:105  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+11:105  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+11:105  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+11:105  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+11:105  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+12:152  1:046  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+12:152  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+12:152  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:152  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+12:152  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+12:152  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+12:152  0:000    Tables in Xsdt: 30
+12:152  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+12:152  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+12:152  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+12:153  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+12:153  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+12:153  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+12:153  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+12:153  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+12:153  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+12:153  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+12:153  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+12:153  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+12:153  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+12:153  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+12:153  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+12:153  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+12:153  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+12:153  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+12:153  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+12:153  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+12:153  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+12:153  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+12:153  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:153  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+12:153  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+12:153  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+12:153  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+12:153  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+12:153  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+12:153  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+12:153  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:153  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+12:153  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+12:153  0:000    Tables in Rsdt: 30
+12:153  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+12:153  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+12:153  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+12:155  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+12:155  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+12:155  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+12:155  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+12:155  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+12:155  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+12:155  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+12:155  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+12:155  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+12:155  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+12:155  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+12:155  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+12:155  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+12:155  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+12:155  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+12:155  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+12:155  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+12:155  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+12:155  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+12:155  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:155  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+12:155  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+12:155  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+12:155  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+12:155  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+12:155  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+12:155  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+12:155  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:155  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+12:155  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+12:358  0:203  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+12:358  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+12:358  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:358  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+12:358  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+12:358  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+12:358  0:000    Tables in Xsdt: 30
+12:358  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+12:358  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+12:358  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+12:360  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+12:360  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+12:360  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+12:360  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+12:360  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+12:360  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+12:360  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+12:360  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+12:360  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+12:360  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+12:360  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+12:360  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+12:360  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+12:360  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+12:360  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+12:360  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+12:360  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+12:360  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+12:360  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+12:360  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:360  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+12:360  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+12:360  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+12:360  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+12:360  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+12:360  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+12:360  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+12:360  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:360  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+12:360  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+12:360  0:000    Tables in Rsdt: 30
+12:360  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+12:360  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+12:360  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+12:361  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+12:361  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+12:361  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+12:361  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+12:361  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+12:361  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+12:361  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+12:361  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+12:361  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+12:361  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+12:361  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+12:361  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+12:361  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+12:361  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+12:361  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+12:361  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+12:361  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+12:361  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+12:361  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+12:361  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:361  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+12:361  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+12:361  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+12:361  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+12:361  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+12:361  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+12:361  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+12:361  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:361  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+12:361  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+12:548  0:187  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+12:548  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+12:548  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:548  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+12:548  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+12:548  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+12:548  0:000    Tables in Xsdt: 30
+12:548  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+12:548  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+12:548  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+12:550  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+12:550  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+12:550  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+12:550  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+12:550  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+12:550  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+12:550  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+12:550  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+12:550  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+12:550  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+12:550  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+12:550  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+12:550  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+12:550  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+12:550  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+12:550  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+12:550  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+12:550  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+12:550  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+12:550  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:550  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+12:550  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+12:550  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+12:550  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+12:550  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+12:550  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+12:550  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+12:550  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:550  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+12:550  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+12:550  0:000    Tables in Rsdt: 30
+12:550  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+12:550  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+12:550  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+12:551  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+12:551  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+12:551  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+12:551  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+12:551  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+12:551  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+12:551  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+12:551  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+12:551  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+12:551  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+12:551  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+12:551  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+12:551  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+12:551  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+12:551  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+12:551  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+12:551  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+12:551  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+12:551  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+12:551  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:551  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+12:551  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+12:551  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+12:551  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+12:551  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+12:551  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+12:551  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+12:551  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+12:551  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+12:551  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+13:579  1:027  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+13:579  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+13:579  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+13:579  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+13:579  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+13:579  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+13:579  0:000    Tables in Xsdt: 30
+13:579  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+13:579  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+13:579  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+13:581  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+13:581  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+13:581  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+13:581  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+13:581  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+13:581  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+13:581  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+13:581  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+13:581  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+13:581  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+13:581  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+13:581  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+13:581  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+13:581  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+13:581  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+13:581  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+13:581  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+13:581  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+13:581  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+13:581  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+13:581  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+13:581  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+13:581  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+13:581  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+13:581  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+13:581  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+13:581  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+13:581  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+13:581  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+13:581  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+13:581  0:000    Tables in Rsdt: 30
+13:581  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+13:581  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+13:581  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+13:582  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+13:582  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+13:582  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+13:582  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+13:582  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+13:582  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+13:582  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+13:582  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+13:582  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+13:582  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+13:582  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+13:582  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+13:582  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+13:582  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+13:582  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+13:582  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+13:582  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+13:582  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+13:582  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+13:582  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+13:582  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+13:582  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+13:582  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+13:582  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+13:582  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+13:582  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+13:582  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+13:582  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+13:582  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+13:582  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+13:980  0:397  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+13:980  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+13:980  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+13:980  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+13:980  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+13:980  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+13:980  0:000    Tables in Xsdt: 30
+13:980  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+13:980  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+13:980  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+13:981  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+13:981  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+13:981  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+13:981  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+13:981  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+13:981  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+13:981  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+13:981  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+13:981  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+13:981  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+13:981  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+13:981  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+13:981  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+13:981  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+13:981  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+13:981  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+13:981  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+13:981  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+13:981  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+13:981  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+13:981  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+13:981  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+13:981  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+13:981  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+13:981  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+13:981  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+13:981  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+13:981  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+13:981  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+13:981  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+13:981  0:000    Tables in Rsdt: 30
+13:981  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+13:981  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+13:981  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+13:983  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+13:983  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+13:983  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+13:983  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+13:983  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+13:983  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+13:983  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+13:983  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+13:983  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+13:983  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+13:983  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+13:983  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+13:983  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+13:983  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+13:983  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+13:983  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+13:983  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+13:983  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+13:983  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+13:983  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+13:983  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+13:983  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+13:983  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+13:983  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+13:983  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+13:983  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+13:983  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+13:983  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+13:983  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+13:983  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+14:160  0:177  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+14:160  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+14:160  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+14:160  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+14:160  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+14:160  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+14:160  0:000    Tables in Xsdt: 30
+14:160  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+14:160  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+14:160  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+14:161  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+14:161  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+14:161  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+14:161  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+14:161  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+14:161  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+14:161  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+14:161  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+14:161  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+14:161  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+14:161  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+14:161  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+14:161  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+14:161  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+14:161  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+14:161  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+14:161  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+14:161  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+14:161  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+14:161  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:161  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+14:161  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+14:161  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+14:161  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+14:161  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+14:161  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+14:161  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+14:161  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:161  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+14:161  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+14:161  0:000    Tables in Rsdt: 30
+14:161  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+14:161  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+14:161  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+14:163  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+14:163  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+14:163  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+14:163  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+14:163  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+14:163  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+14:163  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+14:163  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+14:163  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+14:163  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+14:163  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+14:163  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+14:163  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+14:163  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+14:163  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+14:163  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+14:163  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+14:163  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+14:163  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+14:163  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:163  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+14:163  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+14:163  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+14:163  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+14:163  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+14:163  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+14:163  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+14:163  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:163  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+14:163  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+14:340  0:177  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+14:340  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+14:340  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+14:340  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+14:340  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+14:340  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+14:340  0:000    Tables in Xsdt: 30
+14:340  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+14:340  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+14:340  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+14:341  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+14:341  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+14:341  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+14:341  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+14:341  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+14:341  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+14:341  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+14:341  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+14:341  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+14:341  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+14:341  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+14:341  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+14:341  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+14:341  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+14:341  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+14:341  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+14:341  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+14:341  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+14:341  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+14:341  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:341  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+14:341  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+14:341  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+14:341  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+14:341  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+14:341  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+14:341  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+14:341  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:341  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+14:341  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+14:341  0:000    Tables in Rsdt: 30
+14:341  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+14:341  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+14:341  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+14:343  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+14:343  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+14:343  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+14:343  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+14:343  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+14:343  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+14:343  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+14:343  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+14:343  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+14:343  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+14:343  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+14:343  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+14:343  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+14:343  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+14:343  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+14:343  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+14:343  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+14:343  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+14:343  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+14:343  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:343  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+14:343  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+14:343  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+14:343  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+14:343  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+14:343  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+14:343  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+14:343  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:343  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+14:343  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+14:500  0:157  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+14:500  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+14:500  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+14:500  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+14:500  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+14:500  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+14:500  0:000    Tables in Xsdt: 30
+14:500  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+14:500  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+14:500  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+14:502  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+14:502  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+14:502  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+14:502  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+14:502  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+14:502  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+14:502  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+14:502  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+14:502  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+14:502  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+14:502  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+14:502  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+14:502  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+14:502  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+14:502  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+14:502  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+14:502  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+14:502  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+14:502  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+14:502  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:502  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+14:502  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+14:502  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+14:502  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+14:502  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+14:502  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+14:502  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+14:502  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:502  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+14:502  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+14:502  0:000    Tables in Rsdt: 30
+14:502  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+14:502  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+14:502  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+14:503  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+14:503  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+14:503  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+14:503  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+14:503  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+14:503  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+14:503  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+14:503  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+14:503  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+14:503  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+14:503  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+14:503  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+14:503  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+14:503  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+14:503  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+14:503  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+14:503  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+14:503  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+14:503  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+14:503  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:503  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+14:503  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+14:503  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+14:503  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+14:503  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+14:503  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+14:503  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+14:503  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+14:503  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+14:503  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+14:650  0:147  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+14:650  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+14:650  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+14:658  0:007    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+14:658  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276 -> XSDT.aml
+14:665  0:006    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156 -> RSDT.aml
+14:672  0:007    Tables in Xsdt: 30
+14:672  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268 -> FACP.aml
+14:679  0:006        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+14:679  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336 -> DSDT.aml
+14:689  0:009        8AE79000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+14:695  0:006    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66 -> UEFI.aml
+14:702  0:006    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85 -> MSDM.aml
+14:709  0:007    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70 -> SSDT-0-ACRPRDCT.aml
+14:716  0:007    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660 -> SSDT-1-ACRPRDCT.aml
+14:725  0:008    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165 -> ASF!.aml
+14:733  0:008    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40 -> BOOT.aml
+14:740  0:006    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56 -> HPET.aml
+14:747  0:007    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60 -> MCFG.aml
+14:754  0:007    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148 -> LPIT.aml
+14:762  0:007    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671 -> SSDT-2-ACRPRDCT.aml
+14:769  0:006    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310 -> SSDT-3-ACRPRDCT.aml
+14:775  0:006    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84 -> DBG2.aml
+14:783  0:007    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806 -> SSDT-4-ACRPRDCT.aml (Found hidden SSDT 7 pcs)
+14:790  0:007        * 8A687018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1716  53 53 44 54 B4 06 00 00 02 F4 50 6D 52 65 66 00 Internal length = 1716 -> SSDT-x4_0-Cpu0Ist.aml
+14:800  0:009        * 8A686018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x4_1-ApIst.aml
+14:806  0:006        * 8A686898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x4_2-Cpu0Cst.aml
+14:813  0:006        * 8A686DD8: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 33 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x4_3-ApCst.aml
+14:819  0:006        * 8A687DD8: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 A8 50 6D 52 65 66 00 Internal length = 277 -> SSDT-x4_4-Cpu0Hwp.aml
+14:827  0:007        * 8A687A98: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 EB 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x4_5-ApHwp.aml
+14:835  0:008        * 8A687898: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 36 50 6D 52 65 66 00 Internal length = 420 -> SSDT-x4_6-HwpLvt.aml
+14:842  0:006  
+14:842  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204 -> DMAR.aml
+14:849  0:007    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68 -> FPDT.aml
+14:856  0:006    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566 -> UEFI.aml
+14:863  0:007    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224 -> SSDT-5-ACRPRDCT.aml
+14:870  0:007    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891 -> SSDT-6-ACRPRDCT.aml
+14:878  0:007    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52 -> DBGP.aml
+14:884  0:006    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444 -> SSDT-7-ACRPRDCT.aml
+14:893  0:009    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838 -> SSDT-8-ACRPRDCT.aml
+14:901  0:007    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789 -> SSDT-9-ACRPRDCT.aml
+14:908  0:006    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52 -> ASPT.aml
+14:915  0:007    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40 -> WSMT.aml
+14:922  0:007    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208 -> SSDT-10-ACRPRDCT.aml
+14:929  0:006    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52 -> TPM2.aml
+14:936  0:007    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52 -> DBGP.aml
+14:944  0:007    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188 -> APIC.aml
+14:950  0:006    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56 -> BGRT.aml
+14:958  0:007    Tables in Rsdt: 30
+14:958  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268 -> RSDT-FACP.aml
+14:964  0:006        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+14:964  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336 -> RSDT-DSDT.aml
+15:033  0:069        8AE79000: 'FACS', Ver: 2, Len: 64 -> RSDT-FACS.aml
+15:037  0:004    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66 -> RSDT-UEFI.aml
+15:042  0:004    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85 -> RSDT-MSDM.aml
+15:047  0:005    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70 -> RSDT-SSDT-11-ACRPRDCT.aml
+15:052  0:004    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660 -> RSDT-SSDT-12-ACRPRDCT.aml
+15:057  0:005    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165 -> RSDT-ASF!.aml
+15:064  0:006    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40 -> RSDT-BOOT.aml
+15:068  0:004    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56 -> RSDT-HPET.aml
+15:073  0:004    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60 -> RSDT-MCFG.aml
+15:077  0:004    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148 -> RSDT-LPIT.aml
+15:082  0:004    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671 -> RSDT-SSDT-13-ACRPRDCT.aml
+15:087  0:004    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310 -> RSDT-SSDT-14-ACRPRDCT.aml
+15:091  0:004    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84 -> RSDT-DBG2.aml
+15:098  0:006    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806 -> RSDT-SSDT-15-ACRPRDCT.aml (Found hidden SSDT 7 pcs)
+15:102  0:004        * 8A687018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1716  53 53 44 54 B4 06 00 00 02 F4 50 6D 52 65 66 00 
+15:102  0:000        * 8A686018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 A9 50 6D 52 65 66 00 
+15:102  0:000        * 8A686898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 A9 50 6D 52 65 66 00 
+15:102  0:000        * 8A686DD8: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 33 50 6D 52 65 66 00 
+15:102  0:000        * 8A687DD8: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 A8 50 6D 52 65 66 00 
+15:102  0:000        * 8A687A98: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 EB 50 6D 52 65 66 00 
+15:102  0:000        * 8A687898: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 36 50 6D 52 65 66 00 
+15:102  0:000  
+15:102  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:102  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:102  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:102  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:102  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:102  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:102  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:102  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:102  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:102  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:102  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:102  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:102  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:102  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:102  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:102  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+15:110  0:007  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+15:110  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+15:110  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+15:118  0:007    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+15:118  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276 -> XSDT.aml
+15:126  0:008    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156 -> RSDT.aml
+15:133  0:007    Tables in Xsdt: 30
+15:133  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+15:133  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+15:133  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+15:134  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+15:134  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+15:134  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+15:134  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+15:134  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+15:134  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+15:134  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+15:134  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+15:134  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+15:134  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+15:134  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+15:134  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+15:134  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+15:134  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+15:134  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:134  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:134  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:134  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:134  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:134  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:134  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:134  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:134  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:134  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:134  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:134  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:134  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:134  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:134  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:134  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+15:134  0:000    Tables in Rsdt: 30
+15:134  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+15:134  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+15:134  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+15:136  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+15:136  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+15:136  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+15:136  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+15:136  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+15:136  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+15:136  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+15:136  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+15:136  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+15:136  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+15:136  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+15:136  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+15:136  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+15:136  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+15:136  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:136  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:136  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:136  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:136  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:136  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:136  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:136  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:136  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:136  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:136  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:136  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:136  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:136  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:136  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:136  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+15:261  0:125  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+15:261  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+15:261  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:261  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+15:261  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+15:261  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+15:261  0:000    Tables in Xsdt: 30
+15:261  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+15:261  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+15:261  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+15:263  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+15:263  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+15:263  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+15:263  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+15:263  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+15:263  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+15:263  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+15:263  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+15:263  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+15:263  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+15:263  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+15:263  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+15:263  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+15:263  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+15:263  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:263  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:263  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:263  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:263  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:263  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:263  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:263  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:263  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:263  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:263  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:263  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:263  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:263  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:263  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:263  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+15:263  0:000    Tables in Rsdt: 30
+15:263  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+15:263  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+15:263  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+15:264  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+15:264  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+15:264  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+15:264  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+15:264  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+15:264  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+15:264  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+15:264  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+15:264  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+15:264  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+15:264  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+15:264  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+15:264  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+15:264  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+15:264  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:264  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:264  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:264  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:264  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:264  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:264  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:264  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:264  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:264  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:264  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:264  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:264  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:264  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:264  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:264  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+15:631  0:367  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+15:631  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+15:631  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:631  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+15:631  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+15:631  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+15:631  0:000    Tables in Xsdt: 30
+15:631  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+15:631  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+15:631  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+15:633  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+15:633  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+15:633  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+15:633  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+15:633  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+15:633  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+15:633  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+15:633  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+15:633  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+15:633  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+15:633  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+15:633  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+15:633  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+15:633  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+15:633  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:633  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:633  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:633  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:633  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:633  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:633  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:633  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:633  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:633  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:633  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:633  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:633  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:633  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:633  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:633  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+15:633  0:000    Tables in Rsdt: 30
+15:633  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+15:633  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+15:633  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+15:634  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+15:634  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+15:634  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+15:634  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+15:634  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+15:634  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+15:634  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+15:634  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+15:634  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+15:634  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+15:634  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+15:634  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+15:634  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+15:634  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+15:634  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:634  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:634  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:634  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:634  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:634  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:634  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:634  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:634  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:634  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:634  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:634  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:634  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:634  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:634  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:634  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+15:801  0:166  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+15:801  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+15:801  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:801  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+15:801  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+15:801  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+15:801  0:000    Tables in Xsdt: 30
+15:801  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+15:801  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+15:801  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+15:803  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+15:803  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+15:803  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+15:803  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+15:803  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+15:803  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+15:803  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+15:803  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+15:803  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+15:803  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+15:803  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+15:803  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+15:803  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+15:803  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+15:803  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:803  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:803  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:803  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:803  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:803  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:803  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:803  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:803  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:803  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:803  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:803  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:803  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:803  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:803  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:803  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+15:803  0:000    Tables in Rsdt: 30
+15:803  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+15:803  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+15:803  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+15:804  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+15:804  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+15:804  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+15:804  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+15:804  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+15:804  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+15:804  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+15:804  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+15:804  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+15:804  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+15:804  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+15:804  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+15:804  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+15:804  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+15:804  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:804  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:804  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:804  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:804  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:804  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:804  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:804  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:804  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:804  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:804  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:804  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:804  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:804  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:804  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:804  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+15:961  0:157  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+15:961  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+15:961  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:961  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+15:961  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+15:961  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+15:961  0:000    Tables in Xsdt: 30
+15:961  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+15:961  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+15:961  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+15:963  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+15:963  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+15:963  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+15:963  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+15:963  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+15:963  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+15:963  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+15:963  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+15:963  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+15:963  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+15:963  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+15:963  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+15:963  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+15:963  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+15:963  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:963  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:963  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:963  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:963  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:963  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:963  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:963  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:963  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:963  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:963  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:963  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:963  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:963  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:963  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:963  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+15:963  0:000    Tables in Rsdt: 30
+15:963  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+15:963  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+15:963  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+15:964  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+15:964  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+15:964  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+15:964  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+15:964  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+15:964  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+15:964  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+15:964  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+15:964  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+15:964  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+15:964  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+15:964  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+15:964  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+15:964  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+15:964  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+15:964  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+15:964  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+15:964  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+15:964  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+15:964  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:964  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+15:964  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+15:964  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+15:964  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+15:964  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+15:964  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+15:964  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+15:964  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+15:964  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+15:964  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:111  0:147  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+16:111  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+16:112  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+16:112  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+16:112  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+16:112  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+16:112  0:000    Tables in Xsdt: 30
+16:112  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:112  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:112  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:113  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:113  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:113  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:113  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:113  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:113  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:113  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:113  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:113  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:113  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:113  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:113  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:113  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:113  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:113  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:113  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:113  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:113  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:113  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:113  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:113  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:113  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:113  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:113  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:113  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:113  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:113  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:113  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:113  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:113  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:113  0:000    Tables in Rsdt: 30
+16:113  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:113  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:113  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:115  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:115  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:115  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:115  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:115  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:115  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:115  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:115  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:115  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:115  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:115  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:115  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:115  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:115  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:115  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:115  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:115  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:115  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:115  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:115  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:115  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:115  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:115  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:115  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:115  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:115  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:115  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:115  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:115  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:115  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:242  0:126  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+16:242  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+16:242  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+16:242  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+16:242  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+16:242  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+16:242  0:000    Tables in Xsdt: 30
+16:242  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:242  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:242  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:243  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:243  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:243  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:243  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:243  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:243  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:243  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:243  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:243  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:243  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:243  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:243  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:243  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:243  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:243  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:243  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:243  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:243  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:243  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:243  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:243  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:243  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:243  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:243  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:243  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:243  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:243  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:243  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:243  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:243  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:243  0:000    Tables in Rsdt: 30
+16:243  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:243  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:243  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:245  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:245  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:245  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:245  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:245  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:245  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:245  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:245  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:245  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:245  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:245  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:245  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:245  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:245  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:245  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:245  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:245  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:245  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:245  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:245  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:245  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:245  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:245  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:245  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:245  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:245  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:245  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:245  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:245  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:245  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:392  0:147  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+16:392  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+16:392  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+16:392  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+16:392  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+16:392  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+16:392  0:000    Tables in Xsdt: 30
+16:392  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:392  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:392  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:393  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:393  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:393  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:393  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:393  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:393  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:393  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:393  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:393  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:393  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:393  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:393  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:393  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:393  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:393  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:393  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:393  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:393  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:393  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:393  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:393  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:393  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:393  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:393  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:393  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:393  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:393  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:393  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:393  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:393  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:393  0:000    Tables in Rsdt: 30
+16:393  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:393  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:393  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:395  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:395  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:395  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:395  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:395  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:395  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:395  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:395  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:395  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:395  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:395  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:395  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:395  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:395  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:395  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:395  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:395  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:395  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:395  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:395  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:395  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:395  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:395  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:395  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:395  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:395  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:395  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:395  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:395  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:395  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:552  0:157  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+16:552  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+16:552  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+16:552  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+16:552  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+16:552  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+16:552  0:000    Tables in Xsdt: 30
+16:552  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:552  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:552  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:553  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:553  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:553  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:553  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:553  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:553  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:553  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:553  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:553  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:553  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:553  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:553  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:553  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:553  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:553  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:553  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:553  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:553  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:553  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:553  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:553  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:553  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:553  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:553  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:553  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:553  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:553  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:553  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:553  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:553  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:553  0:000    Tables in Rsdt: 30
+16:553  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:553  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:553  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:555  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:555  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:555  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:555  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:555  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:555  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:555  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:555  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:555  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:555  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:555  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:555  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:555  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:555  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:555  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:555  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:555  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:555  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:555  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:555  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:555  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:555  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:555  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:555  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:555  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:555  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:555  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:555  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:555  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:555  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:702  0:147  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+16:702  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+16:702  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+16:702  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+16:702  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+16:702  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+16:702  0:000    Tables in Xsdt: 30
+16:702  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:702  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:702  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:704  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:704  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:704  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:704  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:704  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:704  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:704  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:704  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:704  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:704  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:704  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:704  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:704  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:704  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:704  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:704  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:704  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:704  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:704  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:704  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:704  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:704  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:704  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:704  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:704  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:704  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:704  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:704  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:704  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:704  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:704  0:000    Tables in Rsdt: 30
+16:704  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:704  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:704  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:705  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:705  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:705  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:705  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:705  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:705  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:705  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:705  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:705  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:705  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:705  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:705  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:705  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:705  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:705  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:705  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:705  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:705  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:705  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:705  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:705  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:705  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:705  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:705  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:705  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:705  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:705  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:705  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:705  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:705  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:842  0:137  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+16:842  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+16:842  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+16:842  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+16:842  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+16:842  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+16:842  0:000    Tables in Xsdt: 30
+16:842  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:842  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:842  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:844  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:844  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:844  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:844  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:844  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:844  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:844  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:844  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:844  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:844  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:844  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:844  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:844  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:844  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:844  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:844  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:844  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:844  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:844  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:844  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:844  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:844  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:844  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:844  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:844  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:844  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:844  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:844  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:844  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:844  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:844  0:000    Tables in Rsdt: 30
+16:844  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:844  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:844  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:845  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:845  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:845  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:845  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:845  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:845  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:845  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:845  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:845  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:845  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:845  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:845  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:845  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:845  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:845  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:845  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:845  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:845  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:845  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:845  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:845  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:845  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:845  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:845  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:845  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:845  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:845  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:845  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:845  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:845  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:992  0:146  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+16:992  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+16:992  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+16:992  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+16:992  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+16:992  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+16:992  0:000    Tables in Xsdt: 30
+16:992  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:992  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:992  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:994  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:994  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:994  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:994  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:994  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:994  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:994  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:994  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:994  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:994  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:994  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:994  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:994  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:994  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:994  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:994  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:994  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:994  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:994  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:994  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:994  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:994  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:994  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:994  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:994  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:994  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:994  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:994  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:994  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:994  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+16:994  0:000    Tables in Rsdt: 30
+16:994  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+16:994  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+16:994  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+16:995  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+16:995  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+16:995  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+16:995  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+16:995  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+16:995  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+16:995  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+16:995  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+16:995  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+16:995  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+16:995  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+16:995  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+16:995  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+16:995  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+16:995  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+16:995  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+16:995  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+16:995  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+16:995  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+16:995  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:995  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+16:995  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+16:995  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+16:995  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+16:995  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+16:995  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+16:995  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+16:995  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+16:995  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+16:995  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+17:313  0:317  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+17:313  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+17:313  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:313  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+17:313  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+17:313  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+17:313  0:000    Tables in Xsdt: 30
+17:313  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+17:313  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+17:313  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+17:314  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+17:314  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+17:314  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+17:314  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+17:314  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+17:314  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+17:314  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+17:314  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+17:314  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+17:314  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+17:314  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+17:314  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+17:314  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+17:314  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+17:314  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+17:314  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+17:314  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+17:314  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+17:314  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+17:314  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:314  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+17:314  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+17:314  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+17:314  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+17:314  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+17:314  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+17:314  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+17:314  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:314  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+17:314  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+17:314  0:000    Tables in Rsdt: 30
+17:314  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+17:314  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+17:314  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+17:316  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+17:316  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+17:316  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+17:316  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+17:316  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+17:316  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+17:316  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+17:316  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+17:316  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+17:316  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+17:316  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+17:316  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+17:316  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+17:316  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+17:316  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+17:316  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+17:316  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+17:316  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+17:316  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+17:316  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:316  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+17:316  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+17:316  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+17:316  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+17:316  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+17:316  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+17:316  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+17:316  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:316  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+17:316  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+17:493  0:177  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+17:493  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+17:493  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:493  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+17:493  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+17:493  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+17:493  0:000    Tables in Xsdt: 30
+17:493  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+17:493  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+17:493  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+17:494  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+17:494  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+17:494  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+17:494  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+17:494  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+17:494  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+17:494  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+17:494  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+17:494  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+17:494  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+17:494  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+17:494  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+17:494  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+17:494  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+17:494  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+17:494  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+17:494  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+17:494  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+17:494  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+17:494  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:494  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+17:494  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+17:494  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+17:494  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+17:494  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+17:494  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+17:494  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+17:494  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:494  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+17:494  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+17:494  0:000    Tables in Rsdt: 30
+17:494  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+17:494  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+17:494  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+17:496  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+17:496  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+17:496  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+17:496  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+17:496  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+17:496  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+17:496  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+17:496  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+17:496  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+17:496  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+17:496  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+17:496  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+17:496  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+17:496  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+17:496  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+17:496  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+17:496  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+17:496  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+17:496  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+17:496  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:496  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+17:496  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+17:496  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+17:496  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+17:496  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+17:496  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+17:496  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+17:496  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:496  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+17:496  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+17:723  0:227  Found UEFI Acpi 2.0 RSDP at 8AEFD014
+17:723  0:000  Saving ACPI tables from RSDP 8AEFD014 to EFI\CLOVER\ACPI\origin ...
+17:723  0:000   8AEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:723  0:000    (Xsdt: 8AEC6188, Rsdt: 8AEC60C4)
+17:723  0:000    8AEC6188: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 276
+17:723  0:000    8AEC60C4: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 156
+17:723  0:000    Tables in Xsdt: 30
+17:723  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+17:723  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+17:723  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+17:724  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+17:724  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+17:724  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+17:724  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+17:724  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+17:724  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+17:724  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+17:724  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+17:724  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+17:724  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+17:724  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+17:724  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+17:724  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+17:724  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+17:724  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+17:724  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+17:724  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+17:725  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+17:725  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+17:725  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:725  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+17:725  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+17:725  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+17:725  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+17:725  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+17:725  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+17:725  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+17:725  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:725  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+17:725  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+17:725  0:000    Tables in Rsdt: 30
+17:725  0:000    0. 8AEE7000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+17:725  0:000        (Dsdt: 8AEC9000, Facs: 8AE79000, XDsdt: 8AEC9000, XFacs: 0)
+17:725  0:000        8AEC9000: 'DSDT', 'ACRPRDCT', Rev: 2, Len: 104336
+17:726  0:001        8AE79000: 'FACS', Ver: 2, Len: 64
+17:726  0:000    1. 8AEFB000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 66
+17:726  0:000    2. 8AEF4000: 'MSDM', 'ACRPRDCT', Rev: 3, Len: 85
+17:726  0:000    3. 8AEF2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 70
+17:726  0:000    4. 8AEED000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 12660
+17:726  0:000    5. 8AEEB000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+17:726  0:000    6. 8AEE9000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+17:726  0:000    7. 8AEE6000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+17:726  0:000    8. 8AEE4000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+17:726  0:000    9. 8AEC7000: 'LPIT', 'ACRPRDCT', Rev: 1, Len: 148
+17:726  0:000    10. 8AEC4000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 671
+17:726  0:000    11. 8AEC2000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1310
+17:726  0:000    12. 8AEC0000: 'DBG2', 'ACRPRDCT', Rev: 0, Len: 84
+17:726  0:000    13. 8AEBF000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 3806
+17:726  0:000    14. 8AEE3000: 'DMAR', 'ACRPRDCT', Rev: 1, Len: 204
+17:726  0:000    15. 8AEBA000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+17:726  0:000    16. 8AEFC000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+17:726  0:000    17. 8AEF3000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1224
+17:726  0:000    18. 8AEEC000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 1891
+17:726  0:000    19. 8AEE8000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:726  0:000    20. 8AEC8000: 'SSDT', 'ACRPRDCT', Rev: 2, Len: 444
+17:726  0:000    21. 8AEC3000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 838
+17:726  0:000    22. 8AEF5000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 21789
+17:726  0:000    23. 8AEEA000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+17:726  0:000    24. 8AEC5000: 'WSMT', 'ACRPRDCT', Rev: 1, Len: 40
+17:726  0:000    25. 8AEBB000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 13208
+17:726  0:000    26. 8AEF1000: 'TPM2', 'ACRPRDCT', Rev: 3, Len: 52
+17:726  0:000    27. 8AEC1000: 'DBGP', 'ACRPRDCT', Rev: 1, Len: 52
+17:726  0:000    28. 8AEE5000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 188
+17:726  0:000    29. 8AEB9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+18:944  1:218  BootVariable of the entry is empty
+18:944  0:000  === [ StartLoader ] =======================================
+18:944  0:000  Finally: ExternalClock=26MHz BusSpeed=100354kHz CPUFreq=2710MHz PIS: hw.busfrequency=104000000Hz
+18:944  0:000  Loading vmlinuz-4.13.0-41-generic  status=Success
+19:371  0:426  Closing events for Linux
+19:371  0:000  EmuVariable UninstallEmulation: CloseEvent = Invalid Parameter, original var services restored
+19:371  0:000  OtherOS: Found Acpi 2.0 RSDP 0x8AEFD014
+19:371  0:000  RSDT at 8AEC60C4
+19:371  0:000  XSDT at 8AEC6188
+19:371  0:000  FADT pointer = 8AEE7000
+19:413  0:042  Dir Linux not found. No patching will be done.
+19:413  0:000  SetStartupDiskVolume:
+19:413  0:000    * Volume: ''
+19:413  0:000    * LoaderPath: '\boot\vmlinuz-4.13.0-41-generic'
+19:413  0:000    * DevPath: 
+19:413  0:000    * GUID = 0560D59B-8512-48A9-B11B-48D4F1F3EEB1
+19:413  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>0560D59B-8512-48A9-B11B-48D4F1F3EEB1</string></dict></dict></dict></array>
+19:414  0:000  Custom boot is disabled
+19:414  0:000  Closing log
